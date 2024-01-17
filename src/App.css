@@ -1,0 +1,70 @@
+*{
+    background-color:white;
+}
+
+.BOX{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;  
+}
+
+h1 {
+    animation: colorChange 3s alternate infinite;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 2px 2px 4px grey;
+}
+
+@keyframes colorChange {
+    from {
+        color: rgb(76,175,80);
+    
+    }
+    to {
+        color: rgb(23, 105, 26);
+        
+    }
+}
+
+.AMOUNT{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.INPUT{
+    font-size: 30px;
+    font-weight: 400;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.FROM{
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.SELECT{
+    font-size: 20px;
+    border: 2px solid black;
+    overflow: scroll;
+}
+
+.TO{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.RESULT{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.FINAL{
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(23, 105, 26);  
+}
+
